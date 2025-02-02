@@ -1,0 +1,168 @@
+
+@font-face {
+  font-family: 'Barlow';
+  src: url('fonts/Barlow-Regular.ttf') format('truetype');
+ 
+}body {font-family: Barlow, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #eff6ff;
+    align-items: center;
+    display: flex;
+  }
+.container{
+  display: flex;
+  width: 100%%;
+  max-width: 100%;
+  background: #eff6ff;
+  
+}
+.left{
+  flex: 1;
+  background: #eff6ff;
+  display: flex;
+  align-items: center;
+}
+.left .logo{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+}
+.left .image{
+  max-width: 100%;
+  height: auto;
+}
+.right{ 
+  flex: 1;
+  color: #2A4A5C;
+  padding: 40px;
+}
+.right h1{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.right p{
+  margin: 10 px 0 20 px;
+  color: #7b8a92;
+  margin-bottom: 20px;
+}
+.buttons{
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+ 
+}
+.btn{
+  border:none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #FFFFFF; 
+  padding: 10px;
+  display: 150px;
+  margin-bottom: 50px;
+  background-size: 10px;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+ 
+
+}
+
+
+.FB {
+  
+  background-color: #255a9b;
+  background-image: url('facebook.svg');
+  margin-bottom: 50px;
+  
+
+
+
+}
+.Ln {
+  background-color: #0076B6;
+  background-image: url('linkedin.svg');
+  margin-bottom: 50px;
+} 
+.or {
+  color: #96A5B1;
+  text-align: center;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.Create{
+  width: 100%;
+  padding: 10px;
+  background-color: #3698FB;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 20px;
+ 
+}
+
+
+.input{
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+input[type="Email"], input[type="Phone"],textarea{
+  width: 100%;
+  border-radius: 5px;
+  font-size: 14px;
+}
+textarea{
+  resize: none;
+
+}
+.radio-group {
+  margin-bottom: 10px;
+  display: flex;
+ 
+}
+label{
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  cursor: pointer;
+   margin-bottom: 20px;
+ 
+}
+input[type="radio"]{
+  margin-right: 5px;
+  
+  
+}
+input[type='checkbox']{
+  margin-right: 5px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.tooltip{
+  font-size: 12px;
+  color: #7b8a92;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: none;
+  padding: 10px;
+  width: 100px;
+  background-color: #FFFFFF;
+
+}
+.link{
+  text-decoration: underline;
+  font-size: 14px;
+  color:#3698FB;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.link:hover{
+  color: #255a9b;
+}
